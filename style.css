@@ -1,0 +1,352 @@
+body {
+    background-color: silver;
+}
+
+p {
+	margin-left:10px;
+	font-size: 43px;
+	margin-bottom: 10px;
+	color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+#button1:hover {
+    background-color: white;
+	color: grey;
+}
+
+#button1:active {
+    background-color: black;
+}
+
+#button2:hover {
+    background-color: white;
+	color: grey;
+}
+
+#button2:active {
+    background-color: black;
+}
+
+#button3:hover {
+    background-color: white;
+	color: grey;
+}
+
+#button3:active {
+    background-color: black;
+}
+
+#button4:hover {
+    background-color: white;
+	color: grey;
+}
+#button5:active {
+    background-color: black;
+}
+
+#button5:hover {
+    background-color: white;
+	color: grey;
+}
+
+#button6:hover {
+    background-color: white;
+	color: grey;
+}
+
+#button6:active {
+    background-color: black;
+}
+
+#button1 {
+	background-color: #888888;
+	box-shadow: 2px 2px 2px #686868 ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+	transition-duration: 0.4s;
+	margin-bottom: 30px;
+	margin: 2px;
+	margin-left:10px;	
+}
+
+
+#button2 {
+	background-color: #888888;
+	box-shadow: 2px 2px 2px #686868 ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+	transition-duration: 0.4s;
+	margin-bottom: 30px;
+	margin: 2px;
+}
+
+#button3 {
+	background-color: #888888;
+	box-shadow: 2px 2px 2px #686868 ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+	transition-duration: 0.4s;
+	margin-bottom: 30px;
+	margin: 2px;
+}
+
+#button4 {
+	background-color: #888888;
+	box-shadow: 2px 2px 2px #686868 ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+	transition-duration: 0.4s;
+	margin-bottom: 30px;
+	margin: 2px;
+}
+
+#button5 {
+	background-color: #888888;
+	box-shadow: 2px 2px 2px #686868 ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+	transition-duration: 0.4s;
+	margin-bottom: 30px;
+	margin: 2px;
+}
+
+#button6 {
+  background-color: #888888;
+	box-shadow: 2px 2px 2px #686868 ;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	transition-duration: 0.4s;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	margin: 2px;
+}
+
+.hover { 
+background-color: #989898; 
+transition-duration: 0.4s;
+}
+
+.nohover { 
+background-color: silver; 
+transition-duration: 0.4s;
+}
+
+.text {
+font-size: 170%;
+color: white;
+text-shadow: 2px 2px 2px #000000;	
+	
+}
+#image1 .text {
+position:relative;
+bottom:180px;
+left:380px;
+visibility:hidden;
+transition-duration: 0.1s;
+	
+}
+
+#image2 .text {
+position:relative;
+bottom:180px;
+left:380px;
+visibility:hidden;
+transition-duration: 0.1s;
+	
+}
+
+#image3 .text {
+position:relative;
+bottom:180px;
+left:380px;
+visibility:hidden;
+transition-duration: 0.1s;
+	
+}
+
+#image1:hover .text {
+visibility:visible;
+transition-duration: 0.4s;
+}
+
+#image2:hover .text {
+visibility:visible;
+transition-duration: 0.4s;
+}
+
+#image3:hover .text {
+visibility:visible;
+transition-duration: 0.4s;
+}
+
+#image1 {
+margin: 10px;
+height: 300px;
+}
+
+#image2 {
+margin: 10px;
+height: 300px;
+}
+
+#image3 {
+margin: 10px;
+height: 300px;
+}
+
+#poem {
+margin-left:10px;
+font-size: 18px;
+margin-bottom: 10px;
+color: black;	
+}
+
+#date {
+margin-left:10px;
+margin-top:35px;
+font-size: 30px;
+color: white;
+text-shadow: 2px 2px 4px #000000;	
+}
+
+#radio {
+margin-left:10px;
+margin-top:35px;
+font-size: 23px;
+color: white;
+text-shadow: 2px 2px 4px #000000;	
+}
+
+#spiral {
+margin-left:10px;
+margin-top:35px;
+margin-bottom:10px;
+font-size: 26px;
+color: white;
+text-shadow: 2px 2px 4px #000000;	
+}
+
+
+#space {
+margin: 10px;	
+}
+
+legend {
+font-size: 27.5px;	
+}
+
+
+.ui-datepicker {
+  width: 190px;
+  height: auto;
+  margin: 5px auto 0;
+  font: 10pt Arial, sans-serif;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+  background: white;
+}
+
+.ui-datepicker-title {
+  padding: 2px;
+}
+
+.ui-datepicker a {
+  text-decoration: none;
+}
+
+.ui-datepicker table {
+  width: 100%;
+  padding: 2px;
+}
+
+.ui-datepicker .ui-datepicker-prev {
+  margin-right: 10px;
+   padding: 2px;
+}
+
+.accordion, .accordion * {
+    -webkit-box-sizing:border-box; 
+    -moz-box-sizing:border-box; 
+    box-sizing:border-box;
+}
+ 
+.accordion {
+    overflow:hidden;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.25);
+    border-radius:3px;
+    background:#f7f7f7;
+	margin-left: 10px;
+	margin-top: 1px;
+}
+ 
+.accordion-section-title {
+    width:100%;
+    padding:15px;
+    display:inline-block;
+    border-bottom:1px solid #1a1a1a;
+    background: #686868;
+    transition:all linear 0.15s;
+    font-size:1.200em;
+    text-shadow:0px 1px 0px #1a1a1a;
+    color:#fff;
+	text-decoration:none;
+}
+ 
+.accordion-section-title.active, .accordion-section-title:hover {
+    background:#4c4c4c;
+    text-decoration:none;
+}
+ 
+.accordion-section:last-child .accordion-section-title {
+    border-bottom:none;
+}
+ 
+.accordion-section-content {
+    padding:15px;
+    display:none;
+}

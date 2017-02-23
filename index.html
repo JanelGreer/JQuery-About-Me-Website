@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment 12 - Janel Greer</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script src="main.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+<p> Some Things I Enjoy </p>
+
+<br></br>
+<div class="accordion">
+    <div class="accordion-section">
+        <a class="accordion-section-title" href="#accordion-1">Poem 1</a>
+         
+        <div id="accordion-1" class="accordion-section-content">
+           <div id="poem"> The heart can think of no devotion,
+			greater than being shore to the ocean,
+			holding the curve of one position,
+			counting an endless repetition.
+			&nbsp; - Robert Frost</div>
+        </div>
+    </div>
+</div>
+<div class="accordion">
+    <div class="accordion-section">
+        <a class="accordion-section-title" href="#accordion-2">Poem 2</a>
+        <div id="accordion-2" class="accordion-section-content">
+            <div id="poem">
+			"Hope" is the thing with feathers,
+			that perches in the soul,
+			and sings the tune without the words,
+		    and never stops at all.
+			&nbsp; - Emily Dickinson</div>
+        </div>
+    </div>
+</div>
+
+<a name="top"></a>
+
+<br></br>
+<a href="#top"><input type="button" id="button1" value="Coffee" ></a>
+<a href="#middle"><input type="button" id="button2" value="Fashion"></a>
+<a href="#bottom"><input type="button" id="button3" value="Reading"></a>
+<input type="button" id="button4" value="The Color Pink">
+<input type="button" id="button5" value="I Disappear!">
+</div>
+
+<div id= "image1" hidden>
+<img src="Coffee.jpg"  height="300" width="300" > 
+<div class="text"> "I like coffee because it gives me the illusion that I might be awake." &nbsp; - Lewis Black</div>
+</div>
+
+<a name="middle"></a>
+
+<div id= "image2" hidden> 
+<img src="Clothes.jpg" height="300" width="300"> 
+<div class="text">"Fashions fade, style is eternal." &nbsp; - Yves Saint Laurent</div>
+</div>
+
+<div id= "image3" hidden>  
+<img src="Books.jpg" height="300" width="300"> 
+<div class="text">"We read to know we're not alone." &nbsp; - William Nicholson</div>
+</div>
+
+<a name="bottom"></a>
+
+<div id="date">Pick a Date: <input type="text" id="datepicker"/></div>
+
+<div id = "radio">
+<legend>Please Select Your Gender:</legend>
+<div id = "space"></div>
+       <label><input type="radio" name="gender" value="male.">Male</label> 
+       <label><input type="radio" name="gender" value="female.">Female</label>
+<div id = "space"></div>   
+       <input type="button" id="button6" value="Enter Value">
+</div>
+
+<div id = "spiral">You can drag the image below. </div>
+<div id="draggable" class="ui-widget-content">
+  <img src="spiral.png" alt="spiral" style="width:110px;height:110px;">
+</div>	  
+  
+
+</body>
+</html>
